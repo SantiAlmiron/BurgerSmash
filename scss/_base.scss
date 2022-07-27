@@ -1,0 +1,20 @@
+html{
+    padding: 0;
+    margin: 0;
+    box-sizing: border;
+}
+:root{
+    /*Font-family*/
+    --font-titulo:'Albert Sans', sans-serif;
+    --font-info: 'Oswald', sans-serif;
+}
+.Body{
+    align-items: center;
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+    margin: 0;
+}
+.Main {
+padding-bottom: 8rem;
+}

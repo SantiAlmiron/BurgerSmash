@@ -1,0 +1,280 @@
+        /*TABLET*/
+ 
+@media all and (max-width: 991px) { 
+
+    .Main {
+        margin-bottom: 5rem; }
+    
+    .Home{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+
+        &__titulo {
+            font-size: $xlarge;
+            padding-top: 2rem;
+            margin: 0rem; }
+        &__info {
+            padding-top: 2rem;
+            font-size: $xlarge; }
+        &__descripcion {
+            padding-bottom: 2rem;
+            font-size: $medium; }
+        &__descripcion2 {
+            font-size: $xlarge;
+            padding-bottom: 2rem;
+            }
+        &__img{
+            height: 80%;
+            width: 80%;}
+        &__link{
+            font-size: $small;
+            padding-top: 3rem;
+            }
+        &__flecha {
+            height: 3rem;
+        }
+    }
+
+    .Header__titulo {
+    display: none; 
+    }  
+
+                /*PRODUCTOS - TABLET*/
+
+    .Productos {
+        padding: 1rem;
+
+        &__subtitulo {
+            padding: 2rem;
+            font-size: $large;
+        }
+        &__info {
+            font-size: $medium;
+            text-align: center;
+        }
+    }
+    .Cheddar { 
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+
+        &__img {
+            width: 70%;
+     
+        }
+        
+        &__titulo {
+            padding-top: 1rem;
+            font-size: $large;
+        }
+        
+        &__info {
+            font-size: $medium;
+        }
+    }
+    .Classic { 
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+
+        &__img {
+            width: 60%;
+        }
+        
+        &__titulo {
+            font-size: $large;
+            padding-top: 4rem
+        }
+        
+        &__info {
+            font-size: $medium;
+        }
+    }
+    .Crispy { 
+        text-align: center;
+        justify-content: center;
+         align-items: center;
+
+        &__img {
+            width: 65%;
+        }
+        
+        &__titulo {
+            font-size: $large;
+            padding-top: 4rem
+        }
+        
+        &__info {
+            font-size: $medium;
+        }
+    }
+    .Galery{ 
+        padding: 2rem;
+    }
+    
+    .Footer{
+        text-align: center;
+    }
+    
+ }
+
+    /*MOBILE*/
+
+    @media all and (max-width: 577px) { 
+
+        /*HOME MOBILE*/
+
+    .Body{
+        }
+    
+    .Header{
+        &__logo {
+            height: 70px;
+            width: 70px;
+            padding: 0.5rem;
+        }
+        &__titulo{
+            font-size: 1.5rem;
+            padding-top: 1rem;
+            margin: 0rem;
+        }
+        &__titulo{
+            display: none;
+        }
+    }
+
+    .Home{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+
+        &__info {
+            padding: 0rem;
+            font-size: $medium;
+        }
+    
+        &__descripcion {
+            padding-bottom: 0.5rem;
+            font-size: $xsmall;   
+        }
+        &__descripcion2 {
+            font-size: $medium;
+            padding-bottom: 1rem;
+            padding-top: 1rem;
+        }
+        &__img{
+            height: 80%;
+            width: 80%;
+        }
+        &__link{
+        font-size: $small;
+        padding-top: 3rem;
+        }
+    }
+        
+    .Main{
+        padding: 1rem;
+        margin: 0rem;
+        margin-bottom: 14rem
+    }
+    .Menu {
+        font-size: $xsmall;
+        padding: 0;
+    }
+
+            /*PRODUCTOS - MOBILE*/
+
+     .Productos {
+        padding: 1rem;
+
+        &__subtitulo {
+            padding: 2rem;
+            font-size: $small;
+        }
+        &__info {
+            font-size: $small;
+            text-align: center;
+        }
+    
+    }
+    .Cheddar { 
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+
+        &__img {
+            width: 70%;
+     
+        }
+        
+        &__titulo {
+            padding-top: 1rem;
+            font-size: $medium;
+        }
+        
+        &__info {
+            font-size: $xsmall;
+        }
+    }
+    
+    .Classic { 
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+
+        &__img {
+            width: 60%;
+        }
+        
+        &__titulo {
+            font-size: $medium;
+            padding-top: 4rem
+        }
+        
+        &__info {
+            font-size: $xsmall;
+        }
+    
+    }
+
+    .Crispy { 
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+
+        &__img {
+            width: 65%;
+        }
+        
+        &__titulo {
+            font-size: $medium;
+            padding-top: 4rem
+        }
+        
+        &__info {
+            font-size: $xsmall;
+        }
+    }
+    
+    .Galery{ 
+        padding: 2rem;
+    }
+    
+
+    .Footer{
+        font-size: $xsmall;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+
+        &__link{
+            padding-left: 1rem;
+        }
+        &__img {
+            height: 45px;
+        }
+            
+    }
+}

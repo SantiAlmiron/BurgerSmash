@@ -1,0 +1,63 @@
+.Home{
+    padding: 1rem;
+    align-items: center;
+
+    &__titulo{
+        font-size: $xxlarge;
+        color: white;
+        font-family: $fuente-titulo;
+        padding: 2rem;
+        margin: 2rem;
+    }
+    &__info {
+        padding-bottom: 3rem;
+        font-size: $xxlarge;
+        text-align: center;
+        font-family: $fuente-info;
+        
+    }
+    &__img {
+        width: 100%;
+    }
+    &__descripcion {
+        font-size: $xlarge;
+        padding-bottom: 3rem;
+        font-family: $fuente-descripcion;
+    }
+    &__descripcion2 {
+        font-size: $xxlarge;
+        padding-top: 3rem;
+        font-family: $fuente-info;
+        padding-bottom: 2rem;
+    }
+    &__link{
+        font-size: $medium;
+        color: $color-principal;
+        text-decoration: none;
+        padding-top: 3rem;
+        font-family: $fuente-info; 
+    }
+    &__flecha {
+        padding-left: 0.1rem;
+        height: 2rem;
+        transition: all 200ms;
+        position: relative;
+    }
+    &__flecha:hover {
+        transform: scale(1.6);
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
