@@ -130,14 +130,9 @@
     
     .Header{
         &__logo {
-            height: 70px;
-            width: 70px;
+            height: 80px;
+            width: 80px;
             padding: 0.5rem;
-        }
-        &__titulo{
-            font-size: 1.5rem;
-            padding-top: 1rem;
-            margin: 0rem;
         }
         &__titulo{
             display: none;
@@ -149,14 +144,20 @@
         align-items: center;
         justify-content: center;
 
+        &__titulo {
+            text-align: center;
+            margin-bottom: 2rem;
+            font-size: $large;
+            color: $color-principal;
+        }
         &__info {
+            margin-bottom: 2rem;
             padding: 0rem;
             font-size: $medium;
         }
-    
         &__descripcion {
             padding-bottom: 0.5rem;
-            font-size: $xsmall;   
+            font-size: $small;   
         }
         &__descripcion2 {
             font-size: $medium;
@@ -172,11 +173,53 @@
         padding-top: 3rem;
         }
     }
+    .Ofertas{
+        text-align: center;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+
+        &__titulo {
+            padding-bottom: 4rem;
+            font-size: $large;
+            text-align: center;
+            font-family: $fuente-info;
+        }
+        &__img {
+            width: 80%;
+            height: 80%;
+        }
+        &__descripcion {
+            font-size: $small;
+            padding-bottom: 1rem;
+            font-family: $fuente-descripcion;
+        }
+        &__descripcion2 {
+            font-size: $medium;
+            padding-top: 1rem;
+            font-family: $fuente-info;
+            padding-bottom: 1rem;
+        }
+        &__link{
+            font-size: $medium;
+            color: $color-principal;
+            text-decoration: none;
+            padding-top: 2rem;
+            font-family: $fuente-info; 
+        }
+        &__flecha {
+            padding-left: 0.1rem;
+            height: 2rem;
+            transition: all 200ms;
+            position: relative;
+        }
+        &__flecha:hover {
+            transform: scale(1.6);
+        }
+    }
         
     .Main{
         padding: 1rem;
         margin: 0rem;
-        margin-bottom: 14rem
     }
     .Menu {
         font-size: $xsmall;
@@ -188,15 +231,21 @@
      .Productos {
         padding: 1rem;
 
-        &__subtitulo {
-            padding: 2rem;
-            font-size: $small;
+        &__titulo {
+            margin-bottom: 2rem;
+            font-size: $medium;
+            text-align: center;
+            color: $color-principal;
         }
         &__info {
             font-size: $small;
             text-align: center;
         }
     
+    }
+
+    .linea{
+        display: inline;
     }
     .Cheddar { 
         text-align: center;
@@ -211,6 +260,7 @@
         &__titulo {
             padding-top: 1rem;
             font-size: $medium;
+            margin-bottom: 2rem;
         }
         
         &__info {
@@ -229,11 +279,14 @@
         
         &__titulo {
             font-size: $medium;
-            padding-top: 4rem
+            padding-top: 1rem
         }
         
         &__info {
             font-size: $xsmall;
+        }
+        &__precio{
+            font-size: $medium;
         }
     
     }
@@ -246,10 +299,9 @@
         &__img {
             width: 65%;
         }
-        
         &__titulo {
             font-size: $medium;
-            padding-top: 4rem
+            padding-top: 1rem
         }
         
         &__info {
@@ -261,20 +313,72 @@
         padding: 2rem;
     }
     
-
     .Footer{
         font-size: $xsmall;
         text-align: center;
         justify-content: center;
         align-items: center;
-        width: 100%;
-
+        width: auto;
+        
+        &__info{
+            gap: 50px;
+        }
+        &__redes{
+            display: none;
+        }
         &__link{
-            padding-left: 1rem;
+            display: none;
         }
         &__img {
             height: 45px;
-        }
-            
+            padding: 0rem;
+        }        
     }
+
+    /*PROMOCIONES*/
+
+    .Promos {
+        padding: 1rem;
+
+        &__info {
+            font-size: $large;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        &__titulo {
+        margin-bottom: 2rem;
+        font-size: $medium;
+        text-align: center;
+        }
+    }    
+
+    .Lunes {
+        &__img {
+            width: 70%;
+            height: 70%;
+        }
+    }
+    
+    .Martes {
+        &__img {
+            width: 70%;
+            height: 70%;
+        }
+    }
+    
+    .Miercoles {
+
+        &__img {
+            width: 70%;
+            height: 70%;
+        }
+    }
+    
+    .Jueves {
+        &__img {
+            width: 70%;
+            height: 70%;
+        }
+    }
+    
 }

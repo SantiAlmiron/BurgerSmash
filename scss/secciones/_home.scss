@@ -1,34 +1,37 @@
-.Home{
+.News{
     padding: 1rem;
     align-items: center;
+    justify-content: center;
+    }
+    .Home{
+        text-align: center;
 
     &__titulo{
         font-size: $xxlarge;
-        color: white;
         font-family: $fuente-titulo;
-        padding: 2rem;
         margin: 2rem;
+        color: white;
+        text-align: start;
     }
     &__info {
         padding-bottom: 3rem;
-        font-size: $xxlarge;
+        font-size: $xlarge;
         text-align: center;
         font-family: $fuente-info;
-        
     }
     &__img {
-        width: 100%;
+        width: 90%;
+        height: 90%;
     }
     &__descripcion {
-        font-size: $xlarge;
+        font-size: $large;
         padding-bottom: 3rem;
         font-family: $fuente-descripcion;
     }
     &__descripcion2 {
-        font-size: $xxlarge;
-        padding-top: 3rem;
+        font-size: $xlarge;
         font-family: $fuente-info;
-        padding-bottom: 2rem;
+        padding-bottom: 1rem;
     }
     &__link{
         font-size: $medium;
@@ -46,8 +49,51 @@
     &__flecha:hover {
         transform: scale(1.6);
     }
-    
-}
+    }
+
+    .Ofertas{
+        text-align: center;
+        padding-top: 2rem;
+
+        &__titulo {
+            padding-bottom: 3rem;
+            font-size: $xlarge;
+            text-align: center;
+            font-family: $fuente-info;
+        }
+        &__img {
+            width: 80%;
+            height: 80%;
+        }
+        &__descripcion {
+            font-size: $large;
+            padding-bottom: 3rem;
+            font-family: $fuente-descripcion;
+        }
+        &__descripcion2 {
+            font-size: $xlarge;
+            padding-top: 3rem;
+            font-family: $fuente-info;
+            padding-bottom: 2rem;
+        }
+        &__link{
+            font-size: $medium;
+            color: $color-principal;
+            text-decoration: none;
+            padding-top: 3rem;
+            font-family: $fuente-info; 
+        }
+        &__flecha {
+            padding-left: 0.1rem;
+            height: 2rem;
+            transition: all 200ms;
+            position: relative;
+        }
+        &__flecha:hover {
+            transform: scale(1.6);
+        }
+    }
+
 
 
 

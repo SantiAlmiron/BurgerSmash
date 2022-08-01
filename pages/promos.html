@@ -4,15 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <meta name="keywords" content="descuento, promociones">
+    <meta name="description" content="Las mejores hamburguesas smash, ven y pruébalas.">
+    <!--CSS BOOSTRAP-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!--CSS PROPIO-->
     <link rel="stylesheet" href="../css/estilos.css">
+    <!--FUENTES-->
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:wght@100&family=Oswald:wght@300&display=swap" rel="stylesheet">
-    <title>Promos</title>
+    <title>Burger Smash - Promos</title>
 </head>
+
 <body class="Body">
+  <!--HEADER-->
     <header class="Header" id="Arriba" >
       <nav class="navbar navbar-expand-lg Header__menu">
         <div class="container-fluid">
@@ -46,22 +53,63 @@
   
 
     <main>
-        
-        <section class="section">
-            <h2 class="section__subtitulo">Promos</h2>
-            
+      <section class="container Promos">
+        <div row>
+          <div col-12>
+            <h2 class="Promos__titulo">Promos</h2>
+            <h3 class="Promos__info">¡Nuestras promociones semanales!</h3>
+          </div>
+        </div>
 
-        </section>
-        
+        <div class="row Promociones">
+          <div class="col-lg-3 col-xs-12 Lunes">
+            <p class="Lunes__titulo">Lunes:</p>
+            <a href="#">
+              <img class="Lunes__img" src="../img/promo_lunes.png" alt="">
+            </a>
+          </div>
+          <div class="col-lg-3 col-xs-12  Martes">
+            <p class="Martes__titulo">Martes:</p>
+            <a href="#">
+              <img class="Martes__img" src="../img/promo_martes.png" alt="">
+            </a>
+          </div>
+          <div class="col-lg-3 col-xs-12 Miercoles">
+            <p class="Miercoles__titulo">Miércoles:</p>
+            <a href="#">
+              <img class="Miercoles__img" src="../img/promo_miercoles.png" alt="">
+            </a>
+          </div>
+          <div class="col-lg-3 col-xs-12 Jueves">
+            <p class="Jueves__titulo">Jueves:</p>
+            <a href="#">
+              <img class="Jueves__img" src="../img/promo_jueves.png" alt="">
+            </a>
+          </div>
+        </div>
+
+      </section>
+
     </main>
 
-    <footer class="Footer"> 
-        <p>¡Síguenos en nuestras redes!</p>
-        <img src="../img/facebook.png" height="50">
-        <img src="../img/instagram.png" height="50">
-        <img src="../img/twitter.png" height="50">
-        <p> <a href="#Arriba">Ir arriba</a></p>
-    </footer>
+  <!--FOOTER-->
+  <footer class="Footer">
+    <div class="Footer__info">
+      <p class="Footer__redes">¡Síguenos en nuestras redes!</p>
+      <a class="Footer__img" href="https://www.facebook.com/" target="_blank">
+        <img src="../img/facebook.png" alt="foto" height="50">
+      </a>
+      <a class="Footer__img" href="https://www.instagram.com/" target="_blank">
+        <img src="../img/instagram.png" alt="foto" height="50">
+      </a>
+      <a class="Footer__img" href="https://twitter.com/twitter" target="_blank">
+        <img src="../img/twitter.png" alt="foto" height="50">
+      </a>
+    </div>
+    <div>
+      <a class="Footer__link" href="#Arriba" id="Arriba">Volver al inicio</a>
+    </div>
+  </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>

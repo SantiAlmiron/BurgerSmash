@@ -4,16 +4,22 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <meta name="keywords" content="burger, classic, crispy, cheddar, cebolla caramelizada, bacon">
+  <meta name="description" content="Prueba nuestro menú, burger classic, burger crispy y la nueva burger classic">
+  <!--CSS BOOSTRAP-->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <!--CSS PROPIO-->
   <link rel="stylesheet" href="../css/estilos.css">
+  <!--FUENTES-->
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:wght@100&family=Oswald:wght@300&display=swap" rel="stylesheet">
-  <title>Productos</title>
+  <title>Burger Smash - Productos</title>
 </head>
 
 <body class="Body">
+  <!--HEADER-->
   <header class="Header" id="Arriba" >
     <nav class="navbar navbar-expand-lg Header__menu">
       <div class="container-fluid">
@@ -45,46 +51,64 @@
     </nav>
   </header>
 
-  <main class="Main">
-    <section class="Productos">
-      <h2 class="Productos__subtitulo">Burgers</h2>
-      <h3 class="Productos__info">¡Todas acompañadas por bebida y fritas!</h3>
-    </section>
-
+  <main>
     <section class="container">
+      <div class="row productos">
+        <div col-12>
+          <h2 class="Productos__titulo">Burgers</h2>
+          <h3 class="Productos__info">¡Todas acompañadas por bebida y fritas!</h3>
+        </div>
+      </div>
+
+    
       <div class="row Galery">
         <div class="col-lg-4 col-xs-12 Cheddar">
           <p class="Cheddar__titulo">Cheddar Burger</p>
-          <img class="Cheddar__img" src="../img/productos.png" alt="">
+          <a href="#">
+            <img class="Cheddar__img" src="../img/cheddar.png" alt="">
+          </a>
           <p class="Cheddar__info">2 Carnes / Doble cheddar / Cebolla caramelizada / Salsa.</p>
+          <p class="Cheddar__precio">$550</p>
         </div>
+        <hr class="linea">
         <div class="col-lg-4 col-xs-12 Classic">
           <p class="Classic__titulo">Classic Burger (New)</p>
-          <img class="Classic__img" src="../img/classic.png" alt="">
+          <a href="#">
+            <img class="Classic__img" src="../img/classic.png" alt="">
+          </a>
           <p class="Classic__info"> Carne / Lechuga / Tomate / cebolla / Bacon / Cheddar / Salsa.</p>
+          <p class="Classic__precio">$600</p>
         </div>
+        <hr class="linea">
         <div class="col-lg-4 col-xs-12 Crispy">
           <p class="Crispy__titulo">Crispy Burger</p>
-          <img class="Crispy__img" src="../img/crispy.png" alt="">
+          <a href="#">
+            <img class="Crispy__img" src="../img/crispy.png" alt="">
+          </a>
           <p class="Crispy__info"> Carne / Cebolla crispy / Queso crema / Salsa.</p>
+          <p class="Crispy__precio">$500</p>
         </div>
       </div>
-    </section>
-        
+    </section>   
   </main>
 
+  <!--FOOTER-->
   <footer class="Footer">
-    <p>¡Síguenos en nuestras redes!</p>
-    <a class="Footer__img" href="https://www.facebook.com/" target="_blank">
-      <img src="../img/facebook.png" alt="foto" height="50">
-    </a>
-    <a class="Footer__img" href="https://www.instagram.com/" target="_blank">
-      <img src="../img/instagram.png" alt="foto" height="50">
-    </a>
-    <a class="Footer__img" href="https://twitter.com/twitter" target="_blank">
-      <img src="../img/twitter.png" alt="foto" height="50">
-    </a>
-    <a class="Footer__link" href="#Arriba" id="Arriba">Volver al inicio</a>
+    <div class="Footer__info">
+      <p class="Footer__redes">¡Síguenos en nuestras redes!</p>
+      <a class="Footer__img" href="https://www.facebook.com/" target="_blank">
+        <img src="../img/facebook.png" alt="foto" height="50">
+      </a>
+      <a class="Footer__img" href="https://www.instagram.com/" target="_blank">
+        <img src="../img/instagram.png" alt="foto" height="50">
+      </a>
+      <a class="Footer__img" href="https://twitter.com/twitter" target="_blank">
+        <img src="../img/twitter.png" alt="foto" height="50">
+      </a>
+    </div>
+    <div>
+      <a class="Footer__link" href="#Arriba" id="Arriba">Volver al inicio</a>
+    </div>
   </footer>
     
   

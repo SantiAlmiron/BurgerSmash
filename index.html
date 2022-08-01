@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-    <!--CSS BOOSTRAP-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <!--CSS PROPIO-->
-    <link rel="stylesheet" href="./css/estilos.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:wght@100&family=Oswald:wght@300&display=swap" rel="stylesheet">
-    <title>Home</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="hamburguesas, burger, cheddar, comida rápida, fast food, smash">
+  <meta name="description" content="Las mejores hamburguesas smash, ven y pruébalas.">
+  <!--CSS BOOSTRAP-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <!--CSS PROPIO-->
+  <link rel="stylesheet" href="./css/estilos.css">
+  <!--FUENTES-->
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:wght@100&family=Oswald:wght@300&display=swap" rel="stylesheet">
+  <title>Burger Smash - Home</title>
 </head>
 
 <body class="Body">
@@ -24,37 +27,38 @@
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-          <h1 class="Header__titulo">Burguer Smash</h1>
-          <div class="collapse navbar-collapse Menu" id="navbarNavDropdown">
-            <ul class="navbar-nav Menu__nav">
-              <li class="nav-item">
-                <a class="nav-link" href="./index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./pages/productos.html">Productos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./pages/promos.html">Promos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./pages/sucursales.html">Sucursales</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
-              </li>
-            </ul>
-          </div>
+        <h1 class="Header__titulo">Burguer Smash</h1>
+        <div class="collapse navbar-collapse Menu" id="navbarNavDropdown">
+          <ul class="navbar-nav Menu__nav">
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/productos.html">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/promos.html">Promos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/sucursales.html">Sucursales</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
   </header>
 
-    <!--MAIN-->
-  <main class="Main">
+  <!--MAIN-->
+  <main class="Main News">
+
     <section class="container Home"> 
       <div class="row">
         <div class="col-12">
           <h2 class="Home__titulo">News</h2>
-          <h3 class="Home__info">¡Probá nuestra nueva Burger Classic!</h3>
+          <p class="Home__info">¡Probá nuestra nueva Burger Classic!</p>
         </div>
       </div>
 
@@ -63,9 +67,9 @@
           <img class="Home__img" src="./img/home.png" alt="">
         </div>
         <div class="col-lg-6 col-xs-12 container__info">
-          <h4 class="Home__descripcion">Una mezcla de frescos vegetales, sumado a nuestro cremoso cheddar y la carne preparada con la técnica Smash. 
-            Dan lugar a una burger crujiente, fresca y jugosa, que deberías probar. </h4>
-          <h5 class="Home__descripcion2">¡Anímate a probar cosas nuevas!</h5>
+          <p class="Home__descripcion">Una mezcla de frescos vegetales, sumado a nuestro cremoso cheddar y la carne preparada con la técnica Smash. 
+            Dan lugar a una burger crujiente, fresca y jugosa, que deberías probar. </p>
+          <p class="Home__descripcion2">¡Anímate a probar cosas nuevas!</p>
           <a class="Home__link" href="./pages/productos.html">Ver más
             <img class="Home__flecha" src="./img/flecha.png" alt="">
           </a>
@@ -73,21 +77,49 @@
       </div>
     </section>
 
+    <hr>
+
+    <section class="container Ofertas">
+      <div class="row">
+        <div class="col-12 Ofertas__titulo">
+          <p>¡Todos los lunes 2x1, en nuestra Cheddar Burger!</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-6 col-xs-12">
+          <img class="Ofertas__img" src="./img/promo_lunes.png" alt="">
+        </div>
+        <div class="col-lg-6 col-xs-12 Ofertas__info">
+          <p class="Ofertas__descripcion">Aprovechá nuestras promociones y descuentos, de Lunes a Jueves.</p>
+          <p class="Ofertas__descripcion2">¡También tenemos promociones para toda la familia!</p>
+          <a class="Home__link" href="./pages/promos.html">Descubrelas aquí
+            <img class="Home__flecha" src="./img/flecha.png" alt="">
+          </a>
+        </div>
+      </div>
+    </section>
+
+
   </main>
     
   <!--FOOTER-->
   <footer class="Footer">
-    <p>¡Síguenos en nuestras redes!</p>
-    <a class="Footer__img" href="https://www.facebook.com/" target="_blank">
-      <img src="./img/facebook.png" alt="foto" height="50">
-    </a>
-    <a class="Footer__img" href="https://www.instagram.com/" target="_blank">
-      <img src="./img/instagram.png" alt="foto" height="50">
-    </a>
-    <a class="Footer__img" href="https://twitter.com/twitter" target="_blank">
-      <img src="./img/twitter.png" alt="foto" height="50">
-    </a>
-    <a class="Footer__link" href="#Arriba" id="Arriba">Volver al inicio</a>
+    <div class="Footer__info">
+      <p class="Footer__redes">¡Síguenos en nuestras redes!</p>
+      <a class="Footer__img" href="https://www.facebook.com/" target="_blank">
+        <img src="./img/facebook.png" alt="foto" height="50">
+      </a>
+      <a class="Footer__img" href="https://www.instagram.com/" target="_blank">
+        <img src="./img/instagram.png" alt="foto" height="50">
+      </a>
+      <a class="Footer__img" href="https://twitter.com/twitter" target="_blank">
+        <img src="./img/twitter.png" alt="foto" height="50">
+      </a>
+    </div>
+    <div>
+      <a class="Footer__link" href="#Arriba" id="Arriba">Volver al inicio</a>
+    </div>
   </footer>
 
   <!-- JavaScript Bundle with Popper -->

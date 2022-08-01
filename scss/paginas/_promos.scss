@@ -1,0 +1,88 @@
+.Promos {
+    padding: 1rem;
+    &__info {
+        font-size: $xlarge;
+        text-align: center;
+        font-family: $fuente-info;
+        margin-bottom: 2rem;
+    }
+    &__titulo {
+    font-family: $fuente-titulo;
+    margin: 2rem;
+    font-size: $large;
+    }
+}
+
+.Promociones{
+    margin-bottom: 5rem;
+}
+
+.Lunes {
+    text-align: center;
+    padding: 1rem;
+
+    &__titulo {
+        font-size: $xxlarge;
+        font-family: $fuente-descripcion;
+    }
+    &__img {
+        width: 100%;
+    }
+    &__img:hover {
+        transform: scale(1.2);
+    }
+}
+
+
+.Martes {
+    text-align: center;
+    padding: 1rem;
+
+    &__titulo {
+        font-size: $xxlarge;
+        font-family: $fuente-descripcion;
+    }
+
+    &__img {
+        width: 100%;
+    }
+    &__img:hover {
+        transform: scale(1.2);
+    }
+}
+
+
+.Miercoles {
+    text-align: center;
+    padding: 1rem;
+
+    &__titulo {
+        font-size: $xxlarge;
+        font-family: $fuente-descripcion;
+    }
+    &__img {
+        width: 100%;
+    }
+    &__img:hover {
+        transform: scale(1.2);
+    }
+}
+
+.Jueves {
+    text-align: center;
+    padding: 1rem;
+
+    &__titulo {
+        font-size: $xxlarge;
+        font-family: $fuente-descripcion;
+    }
+    &__img {
+        width: 100%;
+    }
+    &__img:hover {
+        transform: scale(1.2);
+    }
+}
+
+
+

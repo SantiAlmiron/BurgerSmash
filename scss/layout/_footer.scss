@@ -2,8 +2,8 @@
     font-size: $large;
     background-color: $color-principal;
     color: $color-secundario;
-    display: flex;
-    padding: 1.5rem;
+    @include flex (row, space-between, center);
+    padding: 2rem;
     font-family: $fuente-info;
     &__link{
         justify-content: end;
@@ -16,6 +16,9 @@
     }
     &__img:hover {
         transform: scale(1.3);
+    }
+    &__info {
+        display: flex;
     }
     
 }

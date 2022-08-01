@@ -2,31 +2,35 @@
 /*COLORES*/
 /*FONT FAMILY*/
 /*TAMAÑOS*/
-.Home {
+.News {
   padding: 1rem;
-  align-items: center; }
+  align-items: center;
+  justify-content: center; }
+
+.Home {
+  text-align: center; }
   .Home__titulo {
     font-size: 2.5rem;
-    color: white;
     font-family: "Press Start 2P", cursive;
-    padding: 2rem;
-    margin: 2rem; }
+    margin: 2rem;
+    color: white;
+    text-align: start; }
   .Home__info {
     padding-bottom: 3rem;
-    font-size: 2.5rem;
+    font-size: 2rem;
     text-align: center;
     font-family: "Oswald", sans-serif; }
   .Home__img {
-    width: 100%; }
+    width: 90%;
+    height: 90%; }
   .Home__descripcion {
-    font-size: 2rem;
+    font-size: 1.7rem;
     padding-bottom: 3rem;
     font-family: "Albert Sans", sans-serif; }
   .Home__descripcion2 {
-    font-size: 2.5rem;
-    padding-top: 3rem;
+    font-size: 2rem;
     font-family: "Oswald", sans-serif;
-    padding-bottom: 2rem; }
+    padding-bottom: 1rem; }
   .Home__link {
     font-size: 1.5rem;
     color: #df6305;
@@ -41,19 +45,57 @@
   .Home__flecha:hover {
     transform: scale(1.6); }
 
-.Productos {
-  padding: 4rem; }
-  .Productos__info {
-    font-size: 2.5rem;
+.Ofertas {
+  text-align: center;
+  padding-top: 2rem; }
+  .Ofertas__titulo {
+    padding-bottom: 3rem;
+    font-size: 2rem;
     text-align: center;
     font-family: "Oswald", sans-serif; }
-  .Productos__subtitulo {
+  .Ofertas__img {
+    width: 80%;
+    height: 80%; }
+  .Ofertas__descripcion {
+    font-size: 1.7rem;
+    padding-bottom: 3rem;
+    font-family: "Albert Sans", sans-serif; }
+  .Ofertas__descripcion2 {
+    font-size: 2rem;
+    padding-top: 3rem;
+    font-family: "Oswald", sans-serif;
+    padding-bottom: 2rem; }
+  .Ofertas__link {
+    font-size: 1.5rem;
+    color: #df6305;
+    text-decoration: none;
+    padding-top: 3rem;
+    font-family: "Oswald", sans-serif; }
+  .Ofertas__flecha {
+    padding-left: 0.1rem;
+    height: 2rem;
+    transition: all 200ms;
+    position: relative; }
+  .Ofertas__flecha:hover {
+    transform: scale(1.6); }
+
+.Productos {
+  padding: 1rem; }
+  .Productos__titulo {
     font-family: "Press Start 2P", cursive;
-    padding: 2rem;
-    font-size: 2.5rem; }
+    margin: 2rem;
+    font-size: 2.5rem;
+    color: white; }
+  .Productos__info {
+    font-size: 2rem;
+    text-align: center;
+    font-family: "Oswald", sans-serif; }
+
+.linea {
+  display: none; }
 
 .Galery {
-  padding: 2rem; }
+  padding: 4rem; }
 
 .Cheddar {
   text-align: center;
@@ -61,31 +103,45 @@
   .Cheddar__img {
     width: 100%;
     margin-bottom: 1.5rem; }
+  .Cheddar__img:hover {
+    transform: scale(1.2); }
   .Cheddar__titulo {
     margin-bottom: 4rem;
     font-family: "Oswald", sans-serif;
     font-size: 1.7rem; }
   .Cheddar__info {
     font-family: "Albert Sans", sans-serif;
-    font-size: 1.5rem; }
+    font-size: 1.2rem; }
+  .Cheddar__precio {
+    font-family: "Oswald", sans-serif;
+    font-size: 1.5rem;
+    color: #df6305; }
 
 .Classic {
   text-align: center;
   justify-content: center; }
   .Classic__img {
     width: 100%; }
+  .Classic__img:hover {
+    transform: scale(1.2); }
   .Classic__titulo {
     font-family: "Oswald", sans-serif;
     font-size: 2rem; }
   .Classic__info {
     font-family: "Albert Sans", sans-serif;
-    font-size: 1.7rem; }
+    font-size: 1.5rem; }
+  .Classic__precio {
+    font-family: "Oswald", sans-serif;
+    font-size: 1.7rem;
+    color: #df6305; }
 
 .Crispy {
   text-align: center;
   justify-content: center; }
   .Crispy__img {
     width: 90%; }
+  .Crispy__img:hover {
+    transform: scale(1.2); }
   .Crispy__titulo {
     font-family: "Oswald", sans-serif;
     font-size: 1.7rem;
@@ -93,7 +149,70 @@
     padding-bottom: 0rem; }
   .Crispy__info {
     font-family: "Albert Sans", sans-serif;
-    font-size: 1.5rem; }
+    font-size: 1.2rem; }
+  .Crispy__precio {
+    font-family: "Oswald", sans-serif;
+    font-size: 1.5rem;
+    color: #df6305; }
+
+.Promos {
+  padding: 1rem; }
+  .Promos__info {
+    font-size: 2rem;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    margin-bottom: 2rem; }
+  .Promos__titulo {
+    font-family: "Press Start 2P", cursive;
+    margin: 2rem;
+    font-size: 1.7rem; }
+
+.Promociones {
+  margin-bottom: 5rem; }
+
+.Lunes {
+  text-align: center;
+  padding: 1rem; }
+  .Lunes__titulo {
+    font-size: 2.5rem;
+    font-family: "Albert Sans", sans-serif; }
+  .Lunes__img {
+    width: 100%; }
+  .Lunes__img:hover {
+    transform: scale(1.2); }
+
+.Martes {
+  text-align: center;
+  padding: 1rem; }
+  .Martes__titulo {
+    font-size: 2.5rem;
+    font-family: "Albert Sans", sans-serif; }
+  .Martes__img {
+    width: 100%; }
+  .Martes__img:hover {
+    transform: scale(1.2); }
+
+.Miercoles {
+  text-align: center;
+  padding: 1rem; }
+  .Miercoles__titulo {
+    font-size: 2.5rem;
+    font-family: "Albert Sans", sans-serif; }
+  .Miercoles__img {
+    width: 100%; }
+  .Miercoles__img:hover {
+    transform: scale(1.2); }
+
+.Jueves {
+  text-align: center;
+  padding: 1rem; }
+  .Jueves__titulo {
+    font-size: 2.5rem;
+    font-family: "Albert Sans", sans-serif; }
+  .Jueves__img {
+    width: 100%; }
+  .Jueves__img:hover {
+    transform: scale(1.2); }
 
 .Header__titulo {
   font-size: 2rem;
@@ -127,7 +246,10 @@
   background-color: #df6305;
   color: black;
   display: flex;
-  padding: 1.5rem;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
   font-family: "Oswald", sans-serif; }
   .Footer__link {
     justify-content: end;
@@ -138,6 +260,8 @@
     padding-left: 3rem; }
   .Footer__img:hover {
     transform: scale(1.3); }
+  .Footer__info {
+    display: flex; }
 
 html {
   padding: 0;
@@ -241,25 +365,27 @@ html {
 @media all and (max-width: 577px) {
   /*HOME MOBILE*/
   .Header__logo {
-    height: 70px;
-    width: 70px;
+    height: 80px;
+    width: 80px;
     padding: 0.5rem; }
-  .Header__titulo {
-    font-size: 1.5rem;
-    padding-top: 1rem;
-    margin: 0rem; }
   .Header__titulo {
     display: none; }
   .Home {
     text-align: center;
     align-items: center;
     justify-content: center; }
+    .Home__titulo {
+      text-align: center;
+      margin-bottom: 2rem;
+      font-size: 1.7rem;
+      color: #df6305; }
     .Home__info {
+      margin-bottom: 2rem;
       padding: 0rem;
       font-size: 1.5rem; }
     .Home__descripcion {
       padding-bottom: 0.5rem;
-      font-size: 1rem; }
+      font-size: 1.2rem; }
     .Home__descripcion2 {
       font-size: 1.5rem;
       padding-bottom: 1rem;
@@ -270,22 +396,59 @@ html {
     .Home__link {
       font-size: 1.2rem;
       padding-top: 3rem; }
+  .Ofertas {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem; }
+    .Ofertas__titulo {
+      padding-bottom: 4rem;
+      font-size: 1.7rem;
+      text-align: center;
+      font-family: "Oswald", sans-serif; }
+    .Ofertas__img {
+      width: 80%;
+      height: 80%; }
+    .Ofertas__descripcion {
+      font-size: 1.2rem;
+      padding-bottom: 1rem;
+      font-family: "Albert Sans", sans-serif; }
+    .Ofertas__descripcion2 {
+      font-size: 1.5rem;
+      padding-top: 1rem;
+      font-family: "Oswald", sans-serif;
+      padding-bottom: 1rem; }
+    .Ofertas__link {
+      font-size: 1.5rem;
+      color: #df6305;
+      text-decoration: none;
+      padding-top: 2rem;
+      font-family: "Oswald", sans-serif; }
+    .Ofertas__flecha {
+      padding-left: 0.1rem;
+      height: 2rem;
+      transition: all 200ms;
+      position: relative; }
+    .Ofertas__flecha:hover {
+      transform: scale(1.6); }
   .Main {
     padding: 1rem;
-    margin: 0rem;
-    margin-bottom: 14rem; }
+    margin: 0rem; }
   .Menu {
     font-size: 1rem;
     padding: 0; }
   /*PRODUCTOS - MOBILE*/
   .Productos {
     padding: 1rem; }
-    .Productos__subtitulo {
-      padding: 2rem;
-      font-size: 1.2rem; }
+    .Productos__titulo {
+      margin-bottom: 2rem;
+      font-size: 1.5rem;
+      text-align: center;
+      color: #df6305; }
     .Productos__info {
       font-size: 1.2rem;
       text-align: center; }
+  .linea {
+    display: inline; }
   .Cheddar {
     text-align: center;
     justify-content: center;
@@ -294,7 +457,8 @@ html {
       width: 70%; }
     .Cheddar__titulo {
       padding-top: 1rem;
-      font-size: 1.5rem; }
+      font-size: 1.5rem;
+      margin-bottom: 2rem; }
     .Cheddar__info {
       font-size: 1rem; }
   .Classic {
@@ -305,9 +469,11 @@ html {
       width: 60%; }
     .Classic__titulo {
       font-size: 1.5rem;
-      padding-top: 4rem; }
+      padding-top: 1rem; }
     .Classic__info {
       font-size: 1rem; }
+    .Classic__precio {
+      font-size: 1.5rem; }
   .Crispy {
     text-align: center;
     justify-content: center;
@@ -316,7 +482,7 @@ html {
       width: 65%; }
     .Crispy__titulo {
       font-size: 1.5rem;
-      padding-top: 4rem; }
+      padding-top: 1rem; }
     .Crispy__info {
       font-size: 1rem; }
   .Galery {
@@ -326,8 +492,36 @@ html {
     text-align: center;
     justify-content: center;
     align-items: center;
-    width: 100%; }
+    width: auto; }
+    .Footer__info {
+      gap: 50px; }
+    .Footer__redes {
+      display: none; }
     .Footer__link {
-      padding-left: 1rem; }
+      display: none; }
     .Footer__img {
-      height: 45px; } }
+      height: 45px;
+      padding: 0rem; }
+  /*PROMOCIONES*/
+  .Promos {
+    padding: 1rem; }
+    .Promos__info {
+      font-size: 1.7rem;
+      text-align: center;
+      margin-bottom: 2rem; }
+    .Promos__titulo {
+      margin-bottom: 2rem;
+      font-size: 1.5rem;
+      text-align: center; }
+  .Lunes__img {
+    width: 70%;
+    height: 70%; }
+  .Martes__img {
+    width: 70%;
+    height: 70%; }
+  .Miercoles__img {
+    width: 70%;
+    height: 70%; }
+  .Jueves__img {
+    width: 70%;
+    height: 70%; } }
