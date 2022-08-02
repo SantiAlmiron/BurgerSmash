@@ -1,0 +1,33 @@
+
+
+.Nosotros{
+    padding: 1rem;
+    &__titulo {
+        font-family: $fuente-titulo;
+        margin: 2rem;
+        font-size: $xlarge;
+        color: white;
+    }
+    &__info1 {
+        margin: 2rem;
+        font-size: $large;
+        font-family: $fuente-descripcion;
+    }
+    &__info2 {
+        font-size: $large;
+        font-family: $fuente-info;
+        text-align: center;
+        color: $color-principal;
+        margin-bottom: 2rem;
+    }
+    &__descripcion{
+        font-size: $medium;
+        font-family: $fuente-descripcion;
+    }
+}
+
+.Formulario{
+    &__btm{
+        background-color: $color-principal;
+    }
+}

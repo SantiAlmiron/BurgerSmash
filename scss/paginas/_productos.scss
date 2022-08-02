@@ -4,13 +4,14 @@
     &__titulo {
         font-family: $fuente-titulo;
         margin: 2rem;
-        font-size: $xxlarge;
+        font-size: $xlarge;
         color: white;
         }
     &__info {
         font-size: $xlarge;
         text-align: center;
         font-family: $fuente-info;
+        color: $color-principal;
     }
 }
 

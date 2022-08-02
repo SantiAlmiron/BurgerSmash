@@ -10,7 +10,7 @@
 .Home {
   text-align: center; }
   .Home__titulo {
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-family: "Press Start 2P", cursive;
     margin: 2rem;
     color: white;
@@ -19,7 +19,8 @@
     padding-bottom: 3rem;
     font-size: 2rem;
     text-align: center;
-    font-family: "Oswald", sans-serif; }
+    font-family: "Oswald", sans-serif;
+    color: #df6305; }
   .Home__img {
     width: 90%;
     height: 90%; }
@@ -49,10 +50,11 @@
   text-align: center;
   padding-top: 2rem; }
   .Ofertas__titulo {
-    padding-bottom: 3rem;
+    padding-bottom: 4rem;
     font-size: 2rem;
     text-align: center;
-    font-family: "Oswald", sans-serif; }
+    font-family: "Oswald", sans-serif;
+    color: #df6305; }
   .Ofertas__img {
     width: 80%;
     height: 80%; }
@@ -84,12 +86,13 @@
   .Productos__titulo {
     font-family: "Press Start 2P", cursive;
     margin: 2rem;
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: white; }
   .Productos__info {
     font-size: 2rem;
     text-align: center;
-    font-family: "Oswald", sans-serif; }
+    font-family: "Oswald", sans-serif;
+    color: #df6305; }
 
 .linea {
   display: none; }
@@ -161,11 +164,19 @@
     font-size: 2rem;
     text-align: center;
     font-family: "Oswald", sans-serif;
-    margin-bottom: 2rem; }
+    margin-bottom: 2rem;
+    color: #df6305; }
   .Promos__titulo {
     font-family: "Press Start 2P", cursive;
     margin: 2rem;
-    font-size: 1.7rem; }
+    font-size: 2rem; }
+  .Promos__info2 {
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: "Albert Sans", sans-serif; }
+
+.Main {
+  margin-bottom: 5rem; }
 
 .Promociones {
   margin-bottom: 5rem; }
@@ -213,6 +224,30 @@
     width: 100%; }
   .Jueves__img:hover {
     transform: scale(1.2); }
+
+.Nosotros {
+  padding: 1rem; }
+  .Nosotros__titulo {
+    font-family: "Press Start 2P", cursive;
+    margin: 2rem;
+    font-size: 2rem;
+    color: white; }
+  .Nosotros__info1 {
+    margin: 2rem;
+    font-size: 1.7rem;
+    font-family: "Albert Sans", sans-serif; }
+  .Nosotros__info2 {
+    font-size: 1.7rem;
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+    color: #df6305;
+    margin-bottom: 2rem; }
+  .Nosotros__descripcion {
+    font-size: 1.5rem;
+    font-family: "Albert Sans", sans-serif; }
+
+.Formulario__btm {
+  background-color: #df6305; }
 
 .Header__titulo {
   font-size: 2rem;
@@ -285,8 +320,6 @@ html {
 
 /*TABLET*/
 @media all and (max-width: 991px) {
-  .Main {
-    margin-bottom: 5rem; }
   .Home {
     text-align: center;
     align-items: center;
@@ -377,8 +410,7 @@ html {
     .Home__titulo {
       text-align: center;
       margin-bottom: 2rem;
-      font-size: 1.7rem;
-      color: #df6305; }
+      font-size: 1.7rem; }
     .Home__info {
       margin-bottom: 2rem;
       padding: 0rem;
@@ -430,9 +462,6 @@ html {
       position: relative; }
     .Ofertas__flecha:hover {
       transform: scale(1.6); }
-  .Main {
-    padding: 1rem;
-    margin: 0rem; }
   .Menu {
     font-size: 1rem;
     padding: 0; }
@@ -442,8 +471,7 @@ html {
     .Productos__titulo {
       margin-bottom: 2rem;
       font-size: 1.5rem;
-      text-align: center;
-      color: #df6305; }
+      text-align: center; }
     .Productos__info {
       font-size: 1.2rem;
       text-align: center; }
@@ -503,16 +531,16 @@ html {
       height: 45px;
       padding: 0rem; }
   /*PROMOCIONES*/
-  .Promos {
-    padding: 1rem; }
-    .Promos__info {
-      font-size: 1.7rem;
-      text-align: center;
-      margin-bottom: 2rem; }
-    .Promos__titulo {
-      margin-bottom: 2rem;
-      font-size: 1.5rem;
-      text-align: center; }
+  .Promos__info {
+    font-size: 1.7rem;
+    text-align: center;
+    margin-bottom: 2rem; }
+  .Promos__titulo {
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    text-align: center; }
+  .Promos__info2 {
+    font-size: 1.2rem; }
   .Lunes__img {
     width: 70%;
     height: 70%; }
@@ -524,4 +552,30 @@ html {
     height: 70%; }
   .Jueves__img {
     width: 70%;
-    height: 70%; } }
+    height: 70%; }
+  /*NOSOTROS*/
+  .Nosotros {
+    text-align: center;
+    align-items: center;
+    justify-content: center; }
+    .Nosotros__titulo {
+      font-family: "Press Start 2P", cursive;
+      margin: 2rem;
+      font-size: 1.7rem;
+      color: white; }
+    .Nosotros__info1 {
+      margin: 2rem;
+      font-size: 1.5rem;
+      font-family: "Albert Sans", sans-serif; }
+    .Nosotros__info2 {
+      font-size: 1.7rem;
+      font-family: "Oswald", sans-serif;
+      text-align: center;
+      color: #df6305;
+      margin-bottom: 2rem; }
+    .Nosotros__descripcion {
+      font-size: 1.5rem;
+      font-family: "Albert Sans", sans-serif; }
+  .Main {
+    padding-bottom: 3rem;
+    margin: 1rem; } }
