@@ -408,13 +408,13 @@ html {
     align-items: center;
     justify-content: center; }
     .Home__titulo {
-      text-align: center;
       margin-bottom: 2rem;
-      font-size: 1.7rem; }
+      font-size: 1.7rem;
+      text-align: center; }
     .Home__info {
       margin-bottom: 2rem;
       padding: 0rem;
-      font-size: 1.5rem; }
+      font-size: 1.2rem; }
     .Home__descripcion {
       padding-bottom: 0.5rem;
       font-size: 1.2rem; }
@@ -434,7 +434,7 @@ html {
     padding-bottom: 2rem; }
     .Ofertas__titulo {
       padding-bottom: 4rem;
-      font-size: 1.7rem;
+      font-size: 1.2rem;
       text-align: center;
       font-family: "Oswald", sans-serif; }
     .Ofertas__img {
@@ -445,7 +445,7 @@ html {
       padding-bottom: 1rem;
       font-family: "Albert Sans", sans-serif; }
     .Ofertas__descripcion2 {
-      font-size: 1.5rem;
+      font-size: 1.2rem;
       padding-top: 1rem;
       font-family: "Oswald", sans-serif;
       padding-bottom: 1rem; }
@@ -565,7 +565,7 @@ html {
       color: white; }
     .Nosotros__info1 {
       margin: 2rem;
-      font-size: 1.5rem;
+      font-size: 1.2rem;
       font-family: "Albert Sans", sans-serif; }
     .Nosotros__info2 {
       font-size: 1.7rem;
