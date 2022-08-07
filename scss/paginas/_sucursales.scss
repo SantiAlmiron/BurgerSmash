@@ -1,0 +1,81 @@
+.Sucursales {
+    padding: 1rem;
+    margin-bottom: 4rem;
+
+    &__titulo {
+    font-family: $fuente-titulo;
+    margin: 2rem;
+    font-size: $xlarge;
+    margin-bottom: 3rem;
+    }
+}
+
+.Ubicaciones{
+    padding: 2rem;
+}
+
+.Carrasco {
+
+    &__img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__img img{
+        width: 4rem;
+        height: 4rem;
+    }
+    &__titulo{
+        font-family: $fuente-info;
+        font-size: $medium;
+        text-align: center;
+    }
+    &__descripcion{
+        font-family: $fuente-descripcion;
+        font-size: $medium;
+    }
+}
+
+.Pocitos{
+
+    &__img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__img img{
+        width: 4rem;
+        height: 4rem;
+    }
+    &__titulo{
+        font-family: $fuente-info;
+        font-size: $medium;
+        text-align: center;
+    }
+    &__descripcion{
+        font-family: $fuente-descripcion;
+        font-size: $medium;
+    }
+}
+
+.Malvin {
+
+    &__img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__img img{
+        width: 4rem;
+        height: 4rem;
+    }
+    &__titulo{
+        font-family: $fuente-info;
+        font-size: $medium;
+        text-align: center;
+    }
+    &__descripcion{
+        font-family: $fuente-descripcion;
+        font-size: $medium;
+    }
+}

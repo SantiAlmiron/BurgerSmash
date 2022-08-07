@@ -376,34 +376,100 @@
 
     .Nosotros{
         text-align: center;
-        align-items: center;
-        justify-content: center;
 
         &__titulo {
-            font-family: $fuente-titulo;
             margin: 2rem;
-            font-size: $large;
-            color: white;
+            font-size: $medium;
         }
         &__info1 {
             margin: 2rem;
             font-size: $small;
-            font-family: $fuente-descripcion;
         }
         &__info2 {
             font-size: $large;
-            font-family: $fuente-info;
-            text-align: center;
-            color: $color-principal;
             margin-bottom: 2rem;
         }
         &__descripcion{
             font-size: $medium;
-            font-family: $fuente-descripcion;
         }
     }
     .Main{
         padding-bottom: 3rem;
         margin: 1rem;
     }
+
+
+    /*SUCURSALES*/
+
+.Sucursales {
+
+    &__titulo {
+        margin-bottom: 2rem;
+        font-size: $medium;
+        text-align: center;
+    }
+}
+
+.Ubicaciones{
+    padding: 2rem;
+}
+
+.Carrasco {
+    padding-right: 1rem;
+
+    &__img img{
+        width: 3rem;
+        height: 3rem;
+    }
+    &__titulo{
+        font-family: $fuente-info;
+        font-size: $small;
+        text-align: center;
+    }
+    &__descripcion{
+        font-family: $fuente-descripcion;
+        font-size: $small;
+    }
+}
+
+.Pocitos{
+    
+    &__img img{
+        width: 3rem;
+        height: 3rem;
+    }
+    &__titulo{
+        font-family: $fuente-info;
+        font-size: $small;
+        text-align: center;
+    }
+    &__descripcion{
+        font-family: $fuente-descripcion;
+        font-size: $small;
+    }
+}
+
+.Malvin {
+
+    &__img img{
+        width: 3rem;
+        height: 3rem;
+    }
+    &__titulo{
+        font-size: $small;
+    }
+    &__descripcion{
+        font-family: $fuente-descripcion;
+        font-size: $small;
+    }
+}
+.mapa{
+    width: 100%;
+    margin: 1rem;
+}
+.Main{
+    padding-bottom: 3rem;
+    margin: 1rem;
+}
+
 }
