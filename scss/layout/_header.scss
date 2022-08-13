@@ -1,5 +1,6 @@
 
 .Header{
+    border-bottom: 2px solid white;
 
     &__titulo {
     font-size: $xlarge;
@@ -11,7 +12,9 @@
         background-color: $color-principal;
         color:$color-secundario;
         text-decoration: none;
-        text-transform: uppercase;    
+        text-transform: uppercase;
+        padding-left: 1rem;
+        padding-right: 1rem;    
     }
     &__logo {
         height: 120px;

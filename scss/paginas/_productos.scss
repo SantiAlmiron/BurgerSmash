@@ -2,16 +2,10 @@
     padding: 1rem;
 
     &__titulo {
-        font-family: $fuente-titulo;
-        margin: 2rem;
-        font-size: $xlarge;
-        color: white;
-        }
-    &__info {
-        font-size: $xlarge;
+        font-family: $fuente-subtitulo;
+        margin: 3rem;
+        font-size: $xxlarge;
         text-align: center;
-        font-family: $fuente-info;
-        color: $color-principal;
     }
 }
 
@@ -21,7 +15,7 @@
 }
 
 .Galery{
-    padding: 4rem;
+    padding: 2rem;
 }
 
 .Cheddar { 
@@ -55,22 +49,23 @@
     text-align: center;
 
     &__img {
-        width: 100%;
+        width: 85%;
+        height: 60%;
     }
     &__img:hover {
         transform: scale(1.2);
     }
     &__titulo {
         font-family: $fuente-info;
-        font-size: $xlarge;
+        font-size: $large;
     }
     &__info {
         font-family: $fuente-descripcion;
-        font-size: $medium;
+        font-size: $small;
     }
     &__precio{
         font-family: $fuente-info;
-        font-size: $large;
+        font-size: $medium;
         color: $color-principal;
     }
 }
@@ -93,6 +88,7 @@
     &__info {
         font-family: $fuente-descripcion;
         font-size: $small;
+        margin-bottom: 3rem;
     }
     &__precio{
         font-family: $fuente-info;

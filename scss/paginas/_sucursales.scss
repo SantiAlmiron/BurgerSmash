@@ -3,10 +3,10 @@
     margin-bottom: 4rem;
 
     &__titulo {
-    font-family: $fuente-titulo;
-    margin: 2rem;
-    font-size: $xlarge;
-    margin-bottom: 3rem;
+    font-family: $fuente-subtitulo;
+    margin: 3rem;
+    font-size: $xxlarge;
+    text-align: center;
     }
 }
 
@@ -15,7 +15,7 @@
 }
 
 .Carrasco {
-
+    padding: 0.5rem;
     &__img{
         display: flex;
         justify-content: center;
@@ -37,7 +37,7 @@
 }
 
 .Pocitos{
-
+    padding: 0.5rem;
     &__img{
         display: flex;
         justify-content: center;
@@ -59,7 +59,7 @@
 }
 
 .Malvin {
-
+    padding: 0.5rem;
     &__img{
         display: flex;
         justify-content: center;

@@ -138,31 +138,26 @@
 
     .Home{
         text-align: center;
-        align-items: center;
-        justify-content: center;
 
         &__titulo {
-            margin-bottom: 2rem;
-            font-size: $large;
+            margin: 0rem;
+            margin-bottom: 3rem;
+            font-size: $medium;
             text-align: center;
-        }
-        &__info {
-            margin-bottom: 2rem;
-            padding: 0rem;
-            font-size: $small;
+            padding-top: 0rem;
         }
         &__descripcion {
             padding-bottom: 0.5rem;
-            font-size: $small;   
+            font-size: $xsmall;   
         }
         &__descripcion2 {
-            font-size: $medium;
+            font-size: $small;
             padding-bottom: 1rem;
             padding-top: 1rem;
         }
         &__img{
-            height: 80%;
-            width: 80%;
+            height: 85%;
+            width: 85%;
         }
         &__link{
         font-size: $small;
@@ -175,22 +170,19 @@
         padding-bottom: 2rem;
 
         &__titulo {
-            padding-bottom: 4rem;
-            font-size: $small;
-            text-align: center;
-            font-family: $fuente-info;
+            font-size: $medium;
         }
         &__img {
             width: 80%;
             height: 80%;
         }
         &__descripcion {
-            font-size: $small;
+            font-size: $xsmall;
             padding-bottom: 1rem;
             font-family: $fuente-descripcion;
         }
         &__descripcion2 {
-            font-size: $small;
+            font-size: $xsmall;
             padding-top: 1rem;
             font-family: $fuente-info;
             padding-bottom: 1rem;
@@ -224,12 +216,10 @@
         padding: 1rem;
 
         &__titulo {
-            margin-bottom: 2rem;
+            margin: 0rem;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
             font-size: $medium;
-            text-align: center;
-        }
-        &__info {
-            font-size: $small;
             text-align: center;
         }
     
@@ -240,8 +230,6 @@
     }
     .Cheddar { 
         text-align: center;
-        justify-content: center;
-        align-items: center;
 
         &__img {
             width: 70%;
@@ -249,7 +237,7 @@
         }       
         &__titulo {
             padding-top: 1rem;
-            font-size: $medium;
+            font-size: $small;
             margin-bottom: 2rem;
         }
         
@@ -260,14 +248,13 @@
     
     .Classic { 
         text-align: center;
-        justify-content: center;
-        align-items: center;
 
         &__img {
             width: 60%;
+            height: 45%;
         }
         &__titulo {
-            font-size: $medium;
+            font-size: $small;
             padding-top: 1rem
         }
         
@@ -282,19 +269,18 @@
 
     .Crispy { 
         text-align: center;
-        justify-content: center;
-        align-items: center;
 
         &__img {
             width: 65%;
         }
         &__titulo {
-            font-size: $medium;
+            font-size: $small;
             padding-top: 1rem
         }
         
         &__info {
             font-size: $xsmall;
+            margin-bottom: 1rem;
         }
     }
     
@@ -305,8 +291,6 @@
     .Footer{
         font-size: $xsmall;
         text-align: center;
-        justify-content: center;
-        align-items: center;
         width: auto;
         
         &__info{
@@ -328,15 +312,12 @@
 
     .Promos {
 
-        &__info {
-            font-size: $large;
-            text-align: center;
-            margin-bottom: 2rem;
-        }
         &__titulo {
-        margin-bottom: 2rem;
-        font-size: $medium;
-        text-align: center;
+            margin: 0rem;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            font-size: $medium;
+            text-align: center;
         }
         &__info2{
             font-size: $small;
@@ -348,12 +329,18 @@
             width: 70%;
             height: 70%;
         }
+        &__titulo {
+            font-size: $medium;
+        }
     }
     
     .Martes {
         &__img {
             width: 70%;
             height: 70%;
+        }
+        &__titulo {
+            font-size: $medium;
         }
     }
     
@@ -363,6 +350,9 @@
             width: 70%;
             height: 70%;
         }
+        &__titulo {
+            font-size: $medium;
+        }
     }
     
     .Jueves {
@@ -370,27 +360,30 @@
             width: 70%;
             height: 70%;
         }
+        &__titulo {
+            font-size: $medium;
+        }
     }
 
     /*NOSOTROS*/
 
     .Nosotros{
         text-align: center;
-
         &__titulo {
-            margin: 2rem;
+            margin: 0rem;
             font-size: $medium;
+            margin-bottom: 2rem;
         }
         &__info1 {
             margin: 2rem;
             font-size: $small;
         }
         &__info2 {
-            font-size: $large;
+            font-size: $small;
             margin-bottom: 2rem;
         }
         &__descripcion{
-            font-size: $medium;
+            font-size: $small;
         }
     }
     .Main{
@@ -402,6 +395,9 @@
     /*SUCURSALES*/
 
 .Sucursales {
+    padding-right: 1rem;
+    padding-left: 1rem;
+    text-align: center;
 
     &__titulo {
         margin-bottom: 2rem;
@@ -409,6 +405,7 @@
         text-align: center;
     }
 }
+
 
 .Ubicaciones{
     padding: 2rem;
@@ -428,7 +425,7 @@
     }
     &__descripcion{
         font-family: $fuente-descripcion;
-        font-size: $small;
+        font-size: $xsmall;
     }
 }
 
@@ -445,7 +442,7 @@
     }
     &__descripcion{
         font-family: $fuente-descripcion;
-        font-size: $small;
+        font-size: $xsmall;
     }
 }
 
@@ -460,16 +457,8 @@
     }
     &__descripcion{
         font-family: $fuente-descripcion;
-        font-size: $small;
+        font-size: $xsmall;
     }
-}
-.mapa{
-    width: 100%;
-    margin: 1rem;
-}
-.Main{
-    padding-bottom: 3rem;
-    margin: 1rem;
 }
 
 }

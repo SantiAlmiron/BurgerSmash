@@ -1,16 +1,11 @@
 .Promos {
     padding: 1rem;
-    &__info {
-        font-size: $xlarge;
-        text-align: center;
-        font-family: $fuente-info;
-        margin-bottom: 2rem;
-        color: $color-principal;
-    }
+
     &__titulo {
-    font-family: $fuente-titulo;
-    margin: 2rem;
-    font-size: $xlarge;
+    font-family: $fuente-subtitulo;
+    margin: 3rem;
+    font-size: $xxlarge;
+    text-align: center;
     }
     &__info2{
         font-size: $medium;
@@ -33,7 +28,7 @@
 
     &__titulo {
         font-size: $xxlarge;
-        font-family: $fuente-descripcion;
+        font-family: $fuente-info;
     }
     &__img {
         width: 100%;
@@ -50,7 +45,7 @@
 
     &__titulo {
         font-size: $xxlarge;
-        font-family: $fuente-descripcion;
+        font-family: $fuente-info;
     }
 
     &__img {
@@ -68,7 +63,7 @@
 
     &__titulo {
         font-size: $xxlarge;
-        font-family: $fuente-descripcion;
+        font-family: $fuente-info;
     }
     &__img {
         width: 100%;
@@ -84,7 +79,7 @@
 
     &__titulo {
         font-size: $xxlarge;
-        font-family: $fuente-descripcion;
+        font-family: $fuente-info;
     }
     &__img {
         width: 100%;
