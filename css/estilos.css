@@ -467,9 +467,9 @@ html {
       padding-bottom: 0rem; }
     .Home__descripcion {
       padding-bottom: 0.5rem;
-      font-size: 1rem; }
+      font-size: 1.2rem; }
     .Home__descripcion2 {
-      font-size: 1.2rem;
+      font-size: 1.5rem;
       padding-bottom: 1rem;
       padding-top: 1rem; }
     .Home__img {
@@ -489,11 +489,11 @@ html {
       width: 80%;
       height: 80%; }
     .Ofertas__descripcion {
-      font-size: 1rem;
+      font-size: 1.2rem;
       padding-bottom: 1rem;
       font-family: "Albert Sans", sans-serif; }
     .Ofertas__descripcion2 {
-      font-size: 1rem;
+      font-size: 1.5rem;
       padding-top: 1rem;
       font-family: "Oswald", sans-serif;
       padding-bottom: 1rem; }
@@ -530,7 +530,7 @@ html {
       font-size: 1.5rem;
       margin-bottom: 2rem; }
     .Cheddar__info {
-      font-size: 1rem; }
+      font-size: 1.2rem; }
   .Classic {
     text-align: center; }
     .Classic__img {
@@ -540,7 +540,7 @@ html {
       font-size: 1.5rem;
       padding-top: 1rem; }
     .Classic__info {
-      font-size: 1rem; }
+      font-size: 1.2rem; }
     .Classic__precio {
       font-size: 1.5rem; }
   .Crispy {
@@ -551,7 +551,7 @@ html {
       font-size: 1.5rem;
       padding-top: 1rem; }
     .Crispy__info {
-      font-size: 1rem;
+      font-size: 1.2rem;
       margin-bottom: 1rem; }
   .Galery {
     padding: 2rem; }
@@ -608,8 +608,9 @@ html {
       font-size: 1.5rem;
       margin-bottom: 2rem; }
     .Nosotros__info1 {
-      margin: 2rem;
-      font-size: 1.2rem; }
+      margin: 0rem;
+      font-size: 1.2rem;
+      margin-bottom: 1rem; }
     .Nosotros__info2 {
       font-size: 1.2rem;
       margin-bottom: 2rem; }

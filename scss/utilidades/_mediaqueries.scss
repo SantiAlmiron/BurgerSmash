@@ -1,4 +1,4 @@
-        /*TABLET*/
+    /*TABLET*/
  
 @media all and (max-width: 991px) { 
     
@@ -46,7 +46,7 @@
     }
 }
 
-                /*PRODUCTOS - TABLET*/
+    /*PRODUCTOS - TABLET*/
 
     .Productos {
         padding: 1rem;
@@ -141,7 +141,7 @@
 
     @media all and (max-width: 577px) { 
 
-        /*HOME MOBILE*/
+    /*HOME MOBILE*/
 
     .Body{
         }
@@ -172,10 +172,10 @@
         }
         &__descripcion {
             padding-bottom: 0.5rem;
-            font-size: $xsmall;   
+            font-size: $small;   
         }
         &__descripcion2 {
-            font-size: $small;
+            font-size: $medium;
             padding-bottom: 1rem;
             padding-top: 1rem;
         }
@@ -202,12 +202,12 @@
             height: 80%;
         }
         &__descripcion {
-            font-size: $xsmall;
+            font-size: $small;
             padding-bottom: 1rem;
             font-family: $fuente-descripcion;
         }
         &__descripcion2 {
-            font-size: $xsmall;
+            font-size: $medium;
             padding-top: 1rem;
             font-family: $fuente-info;
             padding-bottom: 1rem;
@@ -266,7 +266,7 @@
         }
         
         &__info {
-            font-size: $xsmall;
+            font-size: $small;
         }
     }
     
@@ -283,7 +283,7 @@
         }
         
         &__info {
-            font-size: $xsmall;
+            font-size: $small;
         }
         &__precio{
             font-size: $medium;
@@ -303,7 +303,7 @@
         }
         
         &__info {
-            font-size: $xsmall;
+            font-size: $small;
             margin-bottom: 1rem;
         }
     }
@@ -401,8 +401,9 @@
             margin-bottom: 2rem;
         }
         &__info1 {
-            margin: 2rem;
+            margin: 0rem;
             font-size: $small;
+            margin-bottom: 1rem;
         }
         &__info2 {
             font-size: $small;
