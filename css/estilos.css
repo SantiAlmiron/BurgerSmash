@@ -377,10 +377,8 @@ html {
     .Home__titulo {
       font-size: 2rem;
       padding-top: 2rem;
+      padding-bottom: 3rem;
       margin: 0rem; }
-    .Home__info {
-      padding-top: 2rem;
-      font-size: 2rem; }
     .Home__descripcion {
       padding-bottom: 2rem;
       font-size: 1.5rem; }
@@ -391,25 +389,26 @@ html {
       height: 80%;
       width: 80%; }
     .Home__link {
-      font-size: 1.2rem;
-      padding-top: 3rem; }
+      font-size: 1.2rem; }
     .Home__flecha {
       height: 3rem; }
   .Header__titulo {
     display: none; }
+  .Ofertas__titulo {
+    font-size: 2rem; }
+  .Ofertas__descripcion2 {
+    font-size: 2rem;
+    padding-top: 0rem;
+    padding-bottom: 2rem; }
   /*PRODUCTOS - TABLET*/
   .Productos {
     padding: 1rem; }
-    .Productos__subtitulo {
-      padding: 2rem;
-      font-size: 1.7rem; }
-    .Productos__info {
-      font-size: 1.5rem;
-      text-align: center; }
+    .Productos__titulo {
+      margin: 0rem;
+      padding-top: 3rem;
+      font-size: 2rem; }
   .Cheddar {
-    text-align: center;
-    justify-content: center;
-    align-items: center; }
+    text-align: center; }
     .Cheddar__img {
       width: 70%; }
     .Cheddar__titulo {
@@ -418,9 +417,7 @@ html {
     .Cheddar__info {
       font-size: 1.5rem; }
   .Classic {
-    text-align: center;
-    justify-content: center;
-    align-items: center; }
+    text-align: center; }
     .Classic__img {
       width: 60%; }
     .Classic__titulo {
@@ -429,9 +426,7 @@ html {
     .Classic__info {
       font-size: 1.5rem; }
   .Crispy {
-    text-align: center;
-    justify-content: center;
-    align-items: center; }
+    text-align: center; }
     .Crispy__img {
       width: 65%; }
     .Crispy__titulo {
@@ -442,7 +437,13 @@ html {
   .Galery {
     padding: 2rem; }
   .Footer {
-    text-align: center; } }
+    text-align: center; }
+  .Sucursales__titulo {
+    font-size: 2rem; }
+  .Promos__titulo {
+    font-size: 2rem; }
+  .Nosotros__titulo {
+    font-size: 2rem; } }
 
 /*MOBILE*/
 @media all and (max-width: 577px) {
@@ -453,6 +454,8 @@ html {
     padding: 0.5rem; }
   .Header__titulo {
     display: none; }
+  .News {
+    padding: 0rem; }
   .Home {
     text-align: center; }
     .Home__titulo {
@@ -460,7 +463,8 @@ html {
       margin-bottom: 3rem;
       font-size: 1.5rem;
       text-align: center;
-      padding-top: 0rem; }
+      padding-top: 1rem;
+      padding-bottom: 0rem; }
     .Home__descripcion {
       padding-bottom: 0.5rem;
       font-size: 1rem; }
@@ -479,7 +483,8 @@ html {
     padding-top: 2rem;
     padding-bottom: 2rem; }
     .Ofertas__titulo {
-      font-size: 1.5rem; }
+      font-size: 1.5rem;
+      padding-bottom: 2rem; }
     .Ofertas__img {
       width: 80%;
       height: 80%; }
@@ -509,14 +514,11 @@ html {
     font-size: 1rem;
     padding: 0; }
   /*PRODUCTOS - MOBILE*/
-  .Productos {
-    padding: 1rem; }
-    .Productos__titulo {
-      margin: 0rem;
-      margin-top: 2rem;
-      margin-bottom: 1rem;
-      font-size: 1.5rem;
-      text-align: center; }
+  .Productos__titulo {
+    margin: 1rem;
+    padding-top: 1rem;
+    font-size: 1.5rem;
+    text-align: center; }
   .linea {
     display: inline; }
   .Cheddar {
@@ -524,8 +526,8 @@ html {
     .Cheddar__img {
       width: 70%; }
     .Cheddar__titulo {
-      padding-top: 1rem;
-      font-size: 1.2rem;
+      padding-top: 0rem;
+      font-size: 1.5rem;
       margin-bottom: 2rem; }
     .Cheddar__info {
       font-size: 1rem; }
@@ -535,7 +537,7 @@ html {
       width: 60%;
       height: 45%; }
     .Classic__titulo {
-      font-size: 1.2rem;
+      font-size: 1.5rem;
       padding-top: 1rem; }
     .Classic__info {
       font-size: 1rem; }
@@ -546,7 +548,7 @@ html {
     .Crispy__img {
       width: 65%; }
     .Crispy__titulo {
-      font-size: 1.2rem;
+      font-size: 1.5rem;
       padding-top: 1rem; }
     .Crispy__info {
       font-size: 1rem;
@@ -555,26 +557,29 @@ html {
     padding: 2rem; }
   .Footer {
     font-size: 1rem;
-    text-align: center;
-    width: auto; }
+    text-align: center; }
     .Footer__info {
-      gap: 50px; }
+      gap: 70px;
+      width: 100%; }
     .Footer__redes {
       display: none; }
     .Footer__link {
       display: none; }
     .Footer__img {
       height: 45px;
-      padding: 0rem; }
+      padding: 0rem;
+      width: 100%; }
   /*PROMOCIONES*/
-  .Promos__titulo {
-    margin: 0rem;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    font-size: 1.5rem;
-    text-align: center; }
-  .Promos__info2 {
-    font-size: 1.2rem; }
+  .Promos {
+    padding: 0rem; }
+    .Promos__titulo {
+      margin: 0rem;
+      padding-top: 1rem;
+      margin-bottom: 1rem;
+      font-size: 1.5rem;
+      text-align: center; }
+    .Promos__info2 {
+      font-size: 1.2rem; }
   .Lunes__img {
     width: 70%;
     height: 70%; }
@@ -621,7 +626,9 @@ html {
     .Sucursales__titulo {
       margin-bottom: 2rem;
       font-size: 1.5rem;
-      text-align: center; }
+      text-align: center;
+      margin: 0rem;
+      padding-top: 1rem; }
   .Ubicaciones {
     padding: 2rem; }
   .Carrasco {
@@ -630,27 +637,23 @@ html {
       width: 3rem;
       height: 3rem; }
     .Carrasco__titulo {
-      font-family: "Oswald", sans-serif;
-      font-size: 1.2rem;
+      font-size: 1.5rem;
       text-align: center; }
     .Carrasco__descripcion {
-      font-family: "Albert Sans", sans-serif;
-      font-size: 1rem; }
+      font-size: 1.2rem; }
   .Pocitos__img img {
     width: 3rem;
     height: 3rem; }
   .Pocitos__titulo {
-    font-family: "Oswald", sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     text-align: center; }
   .Pocitos__descripcion {
-    font-family: "Albert Sans", sans-serif;
-    font-size: 1rem; }
+    font-size: 1.2rem; }
   .Malvin__img img {
     width: 3rem;
     height: 3rem; }
   .Malvin__titulo {
-    font-size: 1.2rem; }
+    font-size: 1.5rem; }
   .Malvin__descripcion {
     font-family: "Albert Sans", sans-serif;
-    font-size: 1rem; } }
+    font-size: 1.2rem; } }

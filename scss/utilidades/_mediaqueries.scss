@@ -2,59 +2,63 @@
  
 @media all and (max-width: 991px) { 
     
-    .Home{
-        text-align: center;
-        align-items: center;
-        justify-content: center;
+    
+.Home{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 
-        &__titulo {
-            font-size: $xlarge;
-            padding-top: 2rem;
-            margin: 0rem; }
-        &__info {
-            padding-top: 2rem;
-            font-size: $xlarge; }
-        &__descripcion {
-            padding-bottom: 2rem;
-            font-size: $medium; }
-        &__descripcion2 {
-            font-size: $xlarge;
-            padding-bottom: 2rem;
-            }
-        &__img{
-            height: 80%;
-            width: 80%;}
-        &__link{
-            font-size: $small;
-            padding-top: 3rem;
-            }
-        &__flecha {
-            height: 3rem;
+    &__titulo {
+        font-size: $xlarge;
+        padding-top: 2rem;
+        padding-bottom: 3rem;
+        margin: 0rem; }
+    &__descripcion {
+        padding-bottom: 2rem;
+        font-size: $medium; }
+    &__descripcion2 {
+        font-size: $xlarge;
+        padding-bottom: 2rem;
         }
+    &__img{
+        height: 80%;
+        width: 80%;}
+    &__link{
+        font-size: $small;
+        }
+    &__flecha {
+        height: 3rem;
     }
+}
 
     .Header__titulo {
     display: none; 
-    }  
+    }
+
+    .Ofertas{
+    &__titulo {
+        font-size: $xlarge;
+    } 
+    &__descripcion2 {
+        font-size: $xlarge;
+        padding-top: 0rem;
+        padding-bottom: 2rem;
+    }
+}
 
                 /*PRODUCTOS - TABLET*/
 
     .Productos {
         padding: 1rem;
 
-        &__subtitulo {
-            padding: 2rem;
-            font-size: $large;
-        }
-        &__info {
-            font-size: $medium;
-            text-align: center;
+        &__titulo {
+            margin: 0rem;
+            padding-top: 3rem;
+            font-size: $xlarge;
         }
     }
     .Cheddar { 
         text-align: center;
-        justify-content: center;
-        align-items: center;
 
         &__img {
             width: 70%;
@@ -72,8 +76,6 @@
     }
     .Classic { 
         text-align: center;
-        justify-content: center;
-        align-items: center;
 
         &__img {
             width: 60%;
@@ -90,8 +92,6 @@
     }
     .Crispy { 
         text-align: center;
-        justify-content: center;
-         align-items: center;
 
         &__img {
             width: 65%;
@@ -113,8 +113,29 @@
     .Footer{
         text-align: center;
     }
+
+
+    .Sucursales {
     
- }
+        &__titulo {
+        font-size: $xlarge;
+    }
+    }
+
+    .Promos {
+    
+        &__titulo {
+        font-size: $xlarge;
+        }
+    }
+
+    .Nosotros{
+
+    &__titulo {
+        font-size: $xlarge;
+    }
+    } 
+}
 
     /*MOBILE*/
 
@@ -135,7 +156,9 @@
             display: none;
         }
     }
-
+    .News{
+        padding: 0rem;
+    }
     .Home{
         text-align: center;
 
@@ -144,7 +167,8 @@
             margin-bottom: 3rem;
             font-size: $medium;
             text-align: center;
-            padding-top: 0rem;
+            padding-top: 1rem;
+            padding-bottom: 0rem;
         }
         &__descripcion {
             padding-bottom: 0.5rem;
@@ -171,6 +195,7 @@
 
         &__titulo {
             font-size: $medium;
+            padding-bottom: 2rem;
         }
         &__img {
             width: 80%;
@@ -213,12 +238,11 @@
             /*PRODUCTOS - MOBILE*/
 
      .Productos {
-        padding: 1rem;
 
         &__titulo {
-            margin: 0rem;
-            margin-top: 2rem;
-            margin-bottom: 1rem;
+            margin: 1rem;
+            padding-top: 1rem;
+  
             font-size: $medium;
             text-align: center;
         }
@@ -236,8 +260,8 @@
      
         }       
         &__titulo {
-            padding-top: 1rem;
-            font-size: $small;
+            padding-top: 0rem;
+            font-size: $medium;
             margin-bottom: 2rem;
         }
         
@@ -254,7 +278,7 @@
             height: 45%;
         }
         &__titulo {
-            font-size: $small;
+            font-size: $medium;
             padding-top: 1rem
         }
         
@@ -274,7 +298,7 @@
             width: 65%;
         }
         &__titulo {
-            font-size: $small;
+            font-size: $medium;
             padding-top: 1rem
         }
         
@@ -291,10 +315,10 @@
     .Footer{
         font-size: $xsmall;
         text-align: center;
-        width: auto;
         
         &__info{
-            gap: 50px;
+            gap: 70px;
+            width: 100%;
         }
         &__redes{
             display: none;
@@ -305,16 +329,18 @@
         &__img {
             height: 45px;
             padding: 0rem;
-        }        
+            width: 100%;
+        }
     }
 
     /*PROMOCIONES*/
 
     .Promos {
-
+        padding: 0rem
+        ;
         &__titulo {
             margin: 0rem;
-            margin-top: 2rem;
+            padding-top: 1rem;
             margin-bottom: 1rem;
             font-size: $medium;
             text-align: center;
@@ -403,6 +429,8 @@
         margin-bottom: 2rem;
         font-size: $medium;
         text-align: center;
+        margin: 0rem;
+        padding-top: 1rem;
     }
 }
 
@@ -419,13 +447,11 @@
         height: 3rem;
     }
     &__titulo{
-        font-family: $fuente-info;
-        font-size: $small;
+        font-size: $medium;
         text-align: center;
     }
     &__descripcion{
-        font-family: $fuente-descripcion;
-        font-size: $xsmall;
+        font-size: $small;
     }
 }
 
@@ -436,13 +462,11 @@
         height: 3rem;
     }
     &__titulo{
-        font-family: $fuente-info;
-        font-size: $small;
+        font-size: $medium;
         text-align: center;
     }
     &__descripcion{
-        font-family: $fuente-descripcion;
-        font-size: $xsmall;
+        font-size: $small;
     }
 }
 
@@ -453,11 +477,11 @@
         height: 3rem;
     }
     &__titulo{
-        font-size: $small;
+        font-size: $medium;
     }
     &__descripcion{
         font-family: $fuente-descripcion;
-        font-size: $xsmall;
+        font-size: $small;
     }
 }
 
