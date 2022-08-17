@@ -5,8 +5,6 @@
     
 .Home{
     text-align: center;
-    align-items: center;
-    justify-content: center;
 
     &__titulo {
         font-size: $xlarge;
@@ -19,10 +17,10 @@
     &__descripcion2 {
         font-size: $xlarge;
         padding-bottom: 2rem;
-        }
+    }
     &__img{
-        height: 80%;
-        width: 80%;}
+        height: 85%;
+        width: 70%;}
     &__link{
         font-size: $small;
         }
@@ -44,12 +42,16 @@
         padding-top: 0rem;
         padding-bottom: 2rem;
     }
+    &__img {
+    width: 70%;
+    height: 80%;}
 }
 
     /*PRODUCTOS - TABLET*/
 
     .Productos {
         padding: 1rem;
+        text-align: center;
 
         &__titulo {
             margin: 0rem;
@@ -61,7 +63,7 @@
         text-align: center;
 
         &__img {
-            width: 70%;
+            width: 50%;
      
         }
         
@@ -78,7 +80,8 @@
         text-align: center;
 
         &__img {
-            width: 60%;
+            width: 40%;
+            height: 50%;
         }
         
         &__titulo {
@@ -94,7 +97,7 @@
         text-align: center;
 
         &__img {
-            width: 65%;
+            width: 45%;
         }
         
         &__titulo {
@@ -130,8 +133,12 @@
     }
 
     .Nosotros{
+    text-align: center;
 
     &__titulo {
+        font-size: $xlarge;
+    }
+    &__técnica {
         font-size: $xlarge;
     }
     } 
@@ -403,15 +410,26 @@
         &__info1 {
             margin: 0rem;
             font-size: $small;
-            margin-bottom: 1rem;
+            margin-bottom: 2rem;
         }
         &__info2 {
-            font-size: $small;
+            font-size: $medium;
             margin-bottom: 2rem;
         }
         &__descripcion{
             font-size: $small;
         }
+        &__técnica {
+            font-size: $medium;
+            margin: 0rem;
+            margin-bottom: 2rem;
+        }
+        &__técnica2 {
+            font-size: $small;
+            margin: 0rem;
+            margin-bottom: 2rem;
+        }
+ 
     }
     .Main{
         padding-bottom: 3rem;
