@@ -6,7 +6,7 @@
 
     .Home{
 
-    &__titulo{
+    &__título{
         font-size: $xxlarge;
         font-family: $fuente-subtitulo;
         margin: 3rem;
@@ -17,12 +17,12 @@
         width: 90%;
         height: 90%;
     }
-    &__descripcion {
+    &__descripción {
         font-size: $large;
         padding-bottom: 3rem;
         font-family: $fuente-descripcion;
     }
-    &__descripcion2 {
+    &__descripción2 {
         font-size: $xlarge;
         font-family: $fuente-info;
         padding-bottom: 1rem;
@@ -49,7 +49,7 @@
         text-align: center;
         padding-top: 2rem;
 
-        &__titulo {
+        &__título {
             padding-bottom: 4rem;
             font-size: $xxlarge;
             text-align: center;
@@ -59,12 +59,12 @@
             width: 80%;
             height: 80%;
         }
-        &__descripcion {
+        &__descripción {
             font-size: $large;
             padding-bottom: 3rem;
             font-family: $fuente-descripcion;
         }
-        &__descripcion2 {
+        &__descripción2 {
             font-size: $xlarge;
             padding-top: 3rem;
             font-family: $fuente-info;

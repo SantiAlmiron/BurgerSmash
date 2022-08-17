@@ -6,15 +6,15 @@
 .Home{
     text-align: center;
 
-    &__titulo {
+    &__título {
         font-size: $xlarge;
         padding-top: 2rem;
         padding-bottom: 3rem;
         margin: 0rem; }
-    &__descripcion {
+    &__descripción {
         padding-bottom: 2rem;
         font-size: $medium; }
-    &__descripcion2 {
+    &__descripción2 {
         font-size: $xlarge;
         padding-bottom: 2rem;
     }
@@ -34,10 +34,10 @@
     }
 
     .Ofertas{
-    &__titulo {
+    &__título {
         font-size: $xlarge;
     } 
-    &__descripcion2 {
+    &__descripción2 {
         font-size: $xlarge;
         padding-top: 0rem;
         padding-bottom: 2rem;
@@ -53,7 +53,7 @@
         padding: 1rem;
         text-align: center;
 
-        &__titulo {
+        &__título {
             margin: 0rem;
             padding-top: 3rem;
             font-size: $xlarge;
@@ -67,7 +67,7 @@
      
         }
         
-        &__titulo {
+        &__título {
             padding-top: 1rem;
             font-size: $large;
         }
@@ -84,7 +84,7 @@
             height: 50%;
         }
         
-        &__titulo {
+        &__título {
             font-size: $large;
             padding-top: 4rem
         }
@@ -100,7 +100,7 @@
             width: 45%;
         }
         
-        &__titulo {
+        &__título {
             font-size: $large;
             padding-top: 4rem
         }
@@ -120,14 +120,14 @@
 
     .Sucursales {
     
-        &__titulo {
+        &__título {
         font-size: $xlarge;
     }
     }
 
     .Promos {
     
-        &__titulo {
+        &__título {
         font-size: $xlarge;
         }
     }
@@ -135,7 +135,7 @@
     .Nosotros{
     text-align: center;
 
-    &__titulo {
+    &__título {
         font-size: $xlarge;
     }
     &__técnica {
@@ -159,7 +159,7 @@
             width: 80px;
             padding: 0.5rem;
         }
-        &__titulo{
+        &__título{
             display: none;
         }
     }
@@ -169,7 +169,7 @@
     .Home{
         text-align: center;
 
-        &__titulo {
+        &__título {
             margin: 0rem;
             margin-bottom: 3rem;
             font-size: $medium;
@@ -177,11 +177,11 @@
             padding-top: 1rem;
             padding-bottom: 0rem;
         }
-        &__descripcion {
+        &__descripción {
             padding-bottom: 0.5rem;
             font-size: $small;   
         }
-        &__descripcion2 {
+        &__descripción2 {
             font-size: $medium;
             padding-bottom: 1rem;
             padding-top: 1rem;
@@ -200,7 +200,7 @@
         padding-top: 2rem;
         padding-bottom: 2rem;
 
-        &__titulo {
+        &__título {
             font-size: $medium;
             padding-bottom: 2rem;
         }
@@ -208,12 +208,12 @@
             width: 80%;
             height: 80%;
         }
-        &__descripcion {
+        &__descripción {
             font-size: $small;
             padding-bottom: 1rem;
             font-family: $fuente-descripcion;
         }
-        &__descripcion2 {
+        &__descripción2 {
             font-size: $medium;
             padding-top: 1rem;
             font-family: $fuente-info;
@@ -246,7 +246,7 @@
 
      .Productos {
 
-        &__titulo {
+        &__título {
             margin: 1rem;
             padding-top: 1rem;
   
@@ -266,7 +266,7 @@
             width: 70%;
      
         }       
-        &__titulo {
+        &__título {
             padding-top: 0rem;
             font-size: $medium;
             margin-bottom: 2rem;
@@ -284,7 +284,7 @@
             width: 60%;
             height: 45%;
         }
-        &__titulo {
+        &__título {
             font-size: $medium;
             padding-top: 1rem
         }
@@ -304,7 +304,7 @@
         &__img {
             width: 65%;
         }
-        &__titulo {
+        &__título {
             font-size: $medium;
             padding-top: 1rem
         }
@@ -345,7 +345,7 @@
     .Promos {
         padding: 0rem
         ;
-        &__titulo {
+        &__título {
             margin: 0rem;
             padding-top: 1rem;
             margin-bottom: 1rem;
@@ -362,7 +362,7 @@
             width: 70%;
             height: 70%;
         }
-        &__titulo {
+        &__título {
             font-size: $medium;
         }
     }
@@ -372,7 +372,7 @@
             width: 70%;
             height: 70%;
         }
-        &__titulo {
+        &__título {
             font-size: $medium;
         }
     }
@@ -383,7 +383,7 @@
             width: 70%;
             height: 70%;
         }
-        &__titulo {
+        &__título {
             font-size: $medium;
         }
     }
@@ -393,7 +393,7 @@
             width: 70%;
             height: 70%;
         }
-        &__titulo {
+        &__título {
             font-size: $medium;
         }
     }
@@ -402,7 +402,7 @@
 
     .Nosotros{
         text-align: center;
-        &__titulo {
+        &__título {
             margin: 0rem;
             font-size: $medium;
             margin-bottom: 2rem;
@@ -416,7 +416,7 @@
             font-size: $medium;
             margin-bottom: 2rem;
         }
-        &__descripcion{
+        &__descripción{
             font-size: $small;
         }
         &__técnica {
@@ -444,7 +444,7 @@
     padding-left: 1rem;
     text-align: center;
 
-    &__titulo {
+    &__título {
         margin-bottom: 2rem;
         font-size: $medium;
         text-align: center;
@@ -465,11 +465,11 @@
         width: 3rem;
         height: 3rem;
     }
-    &__titulo{
+    &__título{
         font-size: $medium;
         text-align: center;
     }
-    &__descripcion{
+    &__descripción{
         font-size: $small;
     }
 }
@@ -480,11 +480,11 @@
         width: 3rem;
         height: 3rem;
     }
-    &__titulo{
+    &__título{
         font-size: $medium;
         text-align: center;
     }
-    &__descripcion{
+    &__descripción{
         font-size: $small;
     }
 }
@@ -495,10 +495,10 @@
         width: 3rem;
         height: 3rem;
     }
-    &__titulo{
+    &__título{
         font-size: $medium;
     }
-    &__descripcion{
+    &__descripción{
         font-family: $fuente-descripcion;
         font-size: $small;
     }

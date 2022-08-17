@@ -1,7 +1,7 @@
 .Productos {
     padding: 1rem;
 
-    &__titulo {
+    &__título {
         font-family: $fuente-subtitulo;
         margin: 3rem;
         font-size: $xxlarge;
@@ -28,7 +28,7 @@
     &__img:hover {
         transform: scale(1.2);
     }
-    &__titulo {
+    &__título {
         margin-bottom: 4rem ;
         font-family: $fuente-info;
         font-size: $large;
@@ -55,7 +55,7 @@
     &__img:hover {
         transform: scale(1.2);
     }
-    &__titulo {
+    &__título {
         font-family: $fuente-info;
         font-size: $large;
     }
@@ -79,7 +79,7 @@
     &__img:hover {
         transform: scale(1.2);
     }
-    &__titulo {
+    &__título {
         font-family: $fuente-info;
         font-size: $large;
         margin: 0rem;

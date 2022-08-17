@@ -2,15 +2,14 @@
 
 .Nosotros{
     padding: 1rem;
-    &__titulo {
+    &__título {
         font-family: $fuente-subtitulo;
         margin: 3rem;
         font-size: $xxlarge;
         text-align: center;
     }
     &__info1 {
-        margin: 2rem;
-        font-size: $large;
+        font-size: $medium;
         font-family: $fuente-descripcion;
     }
     &__técnica {
@@ -30,7 +29,7 @@
         color: $color-principal;
         margin-bottom: 2rem;
     }
-    &__descripcion{
+    &__descripción{
         font-size: $medium;
         font-family: $fuente-descripcion;
     }
