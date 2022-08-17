@@ -1,3 +1,10 @@
+.título {
+    font-size: $xxlarge;
+    font-family: $fuente-subtitulo;
+    margin: 3rem;
+    text-align: center;
+}
+
 .News{
     padding: 1rem;
     align-items: center;
@@ -7,11 +14,7 @@
     .Home{
 
     &__título{
-        font-size: $xxlarge;
-        font-family: $fuente-subtitulo;
-        margin: 3rem;
-        color: white;
-        text-align: center;
+        @extend .título
     }
     &__img {
         width: 90%;

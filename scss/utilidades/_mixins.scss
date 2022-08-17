@@ -1,6 +1,15 @@
+/*MIXINS*/
 @mixin flex ($direction, $justify, $aling) {
     display: flex;
     flex-direction: $direction;
     justify-content: $justify;
     align-items: $aling;
+}
+
+/*EXTEND*/
+.título {
+    font-size: $xxlarge;
+    font-family: $fuente-subtitulo;
+    margin: 3rem;
+    text-align: center;
 }

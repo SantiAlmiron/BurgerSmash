@@ -2,17 +2,16 @@
 /*COLORES*/
 /*FONT FAMILY*/
 /*TAMAÑOS*/
+.título, .Home__título, .Nosotros__título {
+  font-size: 2.5rem;
+  font-family: "Anton", sans-serif;
+  margin: 3rem;
+  text-align: center; }
+
 .News {
   padding: 1rem;
   align-items: center;
   justify-content: center; }
-
-.Home__título {
-  font-size: 2.5rem;
-  font-family: "Anton", sans-serif;
-  margin: 3rem;
-  color: white;
-  text-align: center; }
 
 .Home__img {
   width: 90%;
@@ -276,11 +275,6 @@
 
 .Nosotros {
   padding: 1rem; }
-  .Nosotros__título {
-    font-family: "Anton", sans-serif;
-    margin: 3rem;
-    font-size: 2.5rem;
-    text-align: center; }
   .Nosotros__info1 {
     font-size: 1.5rem;
     font-family: "Albert Sans", sans-serif; }
@@ -305,9 +299,17 @@
 .Formulario__btm {
   background-color: #df6305; }
 
+/*MIXINS*/
+/*EXTEND*/
+.título, .Home__título, .Nosotros__título {
+  font-size: 2.5rem;
+  font-family: "Anton", sans-serif;
+  margin: 3rem;
+  text-align: center; }
+
 .Header {
   border-bottom: 2px solid white; }
-  .Header__titulo {
+  .Header__título {
     font-size: 2rem;
     color: black;
     font-family: "Press Start 2P", cursive;
@@ -374,7 +376,12 @@ html {
 .Main {
   padding-bottom: 8rem; }
 
-/*TABLET*/
+.título, .Home__título, .Nosotros__título {
+  font-size: 2.5rem;
+  font-family: "Anton", sans-serif;
+  margin: 3rem;
+  text-align: center; }
+
 @media all and (max-width: 991px) {
   .Home {
     text-align: center; }
@@ -458,7 +465,6 @@ html {
     .Nosotros__técnica {
       font-size: 2rem; } }
 
-/*MOBILE*/
 @media all and (max-width: 577px) {
   /*HOME MOBILE*/
   .Header__logo {
