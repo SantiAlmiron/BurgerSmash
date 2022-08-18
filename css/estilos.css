@@ -2,12 +2,6 @@
 /*COLORES*/
 /*FONT FAMILY*/
 /*TAMAÑOS*/
-.título, .Home__título, .Nosotros__título {
-  font-size: 2.5rem;
-  font-family: "Anton", sans-serif;
-  margin: 3rem;
-  text-align: center; }
-
 .News {
   padding: 1rem;
   align-items: center;
@@ -28,7 +22,7 @@
   padding-bottom: 1rem; }
 
 .Home__link {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   color: #df6305;
   text-decoration: none;
   padding-top: 3rem;
@@ -64,7 +58,7 @@
     font-family: "Oswald", sans-serif;
     padding-bottom: 2rem; }
   .Ofertas__link {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     color: #df6305;
     text-decoration: none;
     padding-top: 3rem;
@@ -79,11 +73,6 @@
 
 .Productos {
   padding: 1rem; }
-  .Productos__título {
-    font-family: "Anton", sans-serif;
-    margin: 3rem;
-    font-size: 2.5rem;
-    text-align: center; }
 
 .linea {
   display: none; }
@@ -151,11 +140,6 @@
 .Sucursales {
   padding: 1rem;
   margin-bottom: 4rem; }
-  .Sucursales__título {
-    font-family: "Anton", sans-serif;
-    margin: 3rem;
-    font-size: 2.5rem;
-    text-align: center; }
 
 .Ubicaciones {
   padding: 2rem; }
@@ -213,11 +197,6 @@
 
 .Promos {
   padding: 1rem; }
-  .Promos__título {
-    font-family: "Anton", sans-serif;
-    margin: 3rem;
-    font-size: 2.5rem;
-    text-align: center; }
   .Promos__info2 {
     font-size: 1.5rem;
     text-align: center;
@@ -301,7 +280,7 @@
 
 /*MIXINS*/
 /*EXTEND*/
-.título, .Home__título, .Nosotros__título {
+.título, .Home__título, .Productos__título, .Sucursales__título, .Promos__título, .Nosotros__título {
   font-size: 2.5rem;
   font-family: "Anton", sans-serif;
   margin: 3rem;
@@ -376,13 +355,9 @@ html {
 .Main {
   padding-bottom: 8rem; }
 
-.título, .Home__título, .Nosotros__título {
-  font-size: 2.5rem;
-  font-family: "Anton", sans-serif;
-  margin: 3rem;
-  text-align: center; }
-
 @media all and (max-width: 991px) {
+  .Header__título {
+    display: none; }
   .Home {
     text-align: center; }
     .Home__título {
@@ -399,8 +374,6 @@ html {
     .Home__img {
       height: 85%;
       width: 70%; }
-    .Home__link {
-      font-size: 1.2rem; }
     .Home__flecha {
       height: 3rem; }
   .Header__titulo {

@@ -1,10 +1,3 @@
-.título {
-    font-size: $xxlarge;
-    font-family: $fuente-subtitulo;
-    margin: 3rem;
-    text-align: center;
-}
-
 .News{
     padding: 1rem;
     align-items: center;
@@ -31,7 +24,7 @@
         padding-bottom: 1rem;
     }
     &__link{
-        font-size: $medium;
+        font-size: $large;
         color: $color-principal;
         text-decoration: none;
         padding-top: 3rem;
@@ -74,7 +67,7 @@
             padding-bottom: 2rem;
         }
         &__link{
-            font-size: $medium;
+            font-size: $large;
             color: $color-principal;
             text-decoration: none;
             padding-top: 3rem;

@@ -2,10 +2,7 @@
     padding: 1rem;
 
     &__título {
-    font-family: $fuente-subtitulo;
-    margin: 3rem;
-    font-size: $xxlarge;
-    text-align: center;
+        @extend .título
     }
     &__info2{
         font-size: $medium;
